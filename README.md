@@ -1,5 +1,7 @@
 # GifsApp
 
+This is a straightforward Angular web application that leverages the [GIPHY](https://developers.giphy.com/) API to display searched GIFs.
+
 This project was created to explore concepts such as inputs and outputs, ViewChild, services, use of API keys, local web storage, HTTP requests, importation of custom modules, modularization of an application, components, and lazy loading of images among other things. It was generated with  [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
 
 ## Initialization
