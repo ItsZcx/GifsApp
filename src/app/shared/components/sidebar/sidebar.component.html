@@ -1,0 +1,13 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+  <h3 class="text-light" >History</h3>
+  <hr class="text-light">
+
+  <div class="list-group list-reset">
+    <button *ngFor="let tag of tagsHistory" class="list-group-item list-group-item-action"
+    (click)="gifService.searchTag(tag)">
+      <!-- The pipe changes how we see the data on the web, it doesn't change the one stored -->
+        {{ tag | titlecase }}
+    </button>
+  </div>
+
+</div>

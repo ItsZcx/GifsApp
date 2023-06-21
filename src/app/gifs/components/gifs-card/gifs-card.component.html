@@ -1,0 +1,20 @@
+<!-- Recive gifs from card-list create a card -->
+<div class="card mb-2 text-center text-light bg-dark">
+
+  <!-- Add gifs to the card -->
+
+  <shared-lazy-image
+  [url]="currGif.images.downsized_medium.url"
+  [alt]="currGif.title">
+
+  </shared-lazy-image>
+
+
+  <!-- Add text name to the card -->
+  <div class="card-body text-white">
+    <p class="card-text">
+      {{ currGif.title || "No title" }} <!-- If there is no title write "No title" -->
+    </p>
+  </div>
+
+</div>

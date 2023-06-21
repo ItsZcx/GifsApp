@@ -1,0 +1,9 @@
+<div class="row">
+
+  <!-- Recive gifs and send them to gifs-card for each gif -->
+  <gifs-card *ngFor="let gif of gifs"
+  [currGif]="gif"
+  class="col-md-3 col-sm-6 my-2">
+  </gifs-card>
+
+</div>
